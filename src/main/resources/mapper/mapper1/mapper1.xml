@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.db1.Db1Mapper">
+  <select id="selCodeTpId" resultType="String">
+    SELECT CODE_TP_ID FROM MOBON_COM_CODE
+  </select>
+</mapper>
